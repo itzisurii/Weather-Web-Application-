@@ -1,1 +1,115 @@
-@import "tailwind.css"
+body {
+    /* background-image: url('/assets/images/backgroung2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(255, 255, 255); */
+    background: linear-gradient(155deg, #497db8 0%, #02446d 50%, #011931 100%);
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.section {
+    display: flex;
+}
+
+.custom-nav {
+    background-color: rgb(221, 217, 217);
+    /* color: blue; */
+    border-radius: 2rem;
+}
+
+.custom-nav {
+    /* background: linear-gradient(90deg, #4facfe, #ffffff); Sky-blue gradient */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Soft shadow */
+    padding: 0.3rem 1.2rem;
+}
+
+.custom-icon {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.custom-nav a {
+    text-decoration: none;
+}
+
+.custom-nav .flex.items-center.space-x-3:hover .custom-icon {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    /* Glow on hover */
+}
+
+
+.custom-maincard {
+    background-color: #ffffff8c;
+    border-radius: 2.1rem;
+}
+
+.custom-icon {
+    color: #041b3f;
+}
+
+.custom-subHeading {
+    color: #ffffffec;
+}
+
+.custom-dailyforcast {
+    color: #fff;
+}
+
+.custom-details {
+    color: #fff;
+}
+
+.custom-card {
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #eeeeee;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid rgba(255, 255, 255, 0.164); */
+}
+
+/* .custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+} */
+
+.custom-card img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-card img:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.3));
+}
+
+.custom-daily{
+    border: 1px solid rgba(83, 80, 80, 0.521);
+    background-color: #00000054;
+    color: #fff;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+.custom-daily:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.3));
+}
+.custom-weather {
+    background-color: rgba(245, 238, 238, 0.336);
+    color: #000000f8;
+}
+
+.custom-weather img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-weather img:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.3));
+}
